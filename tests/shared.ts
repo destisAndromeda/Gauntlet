@@ -1,7 +1,7 @@
 import * as anchor from '@coral-xyz/anchor';
 import { Program } from '@coral-xyz/anchor';
 import { Keypair, PublicKey } from '@solana/web3.js';
-import { CompetitionConstructorProgram } from '../target/types/competition_constructor_program';
+import { CompetitionConstructorProgram } from '../../target/types/competition_constructor_program';
 
 const SEED_PREFIX = 'competition_constructor';
 const SEED_PROGRAM_CONFIG = 'program_config';

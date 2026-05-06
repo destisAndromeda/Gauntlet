@@ -5,7 +5,6 @@ import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { state } from '../shared.ts';
 import { PublicKey } from '@solana/web3.js';
-import { isThawAccountInstruction } from '@solana/spl-token';
 
 const { expect } = chai;
 
