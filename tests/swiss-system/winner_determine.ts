@@ -3,8 +3,7 @@ import { Program } from '@coral-xyz/anchor';
 import { CompetitionConstructorProgram } from '../../target/types/competition_constructor_program';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import { state } from '../shared';
-import { PublicKey } from '@solana/web3.js';
+import { state } from '../shared.ts';
 
 const { expect } = chai;
 
