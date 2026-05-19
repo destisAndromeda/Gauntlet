@@ -1,6 +1,6 @@
-# Competition Constructor Program
+# Gauntelt
 
-The `competition-constructor-program` is a Solana/Anchor smart contract for running competition tournaments using a Swiss-system model. It supports tournament creation, participant registration, point scoring, winner determination, and secured prize distribution.
+The `Gauntelt` program is a Solana/Anchor smart contract for running competition tournaments using a Swiss-system model. It supports tournament creation, participant registration, point scoring, winner determination, and secured prize distribution.
 
 ## What this project does
 
@@ -32,7 +32,7 @@ The `competition-constructor-program` is a Solana/Anchor smart contract for runn
 
 ```bash
 # Install dependencies
-cd ./competition-constructor/competition-constructor-program
+cd ./competition-constructor/Gauntelt
 yarn install
 
 # Build the Anchor program
@@ -41,7 +41,7 @@ anchor build
 # Run tests
 anchor test -- --features testing
 
-**Note:** Before running tests, update the `INITIALIZER` constant in `programs/competition-constructor-program/src/instructions/admin/program_config_init.rs` to your Solana wallet address (the one used by Anchor). Otherwise, the tests will fail due to authority mismatch.
+**Note:** Before running tests, update the `INITIALIZER` constant in `programs/Gauntelt/src/instructions/admin/program_config_init.rs` to your Solana wallet address (the one used by Anchor). Otherwise, the tests will fail due to authority mismatch.
 ```
 
 If you want to run the faster tests from `Anchor.toml`:
